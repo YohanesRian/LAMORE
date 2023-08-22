@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavbarText">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

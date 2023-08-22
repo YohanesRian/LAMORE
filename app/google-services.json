@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "433601567968",
+    "project_id": "lamore-99791",
+    "storage_bucket": "lamore-99791.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433601567968:android:500d2e3cec636441bec485",
+        "android_client_info": {
+          "package_name": "com.store.lamore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433601567968-nt4qdaclu61v7qutae3ieqk4bbgsnvns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk6eHNEx2p4Dndk-haBMIL0jiP9W3f908"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433601567968-nt4qdaclu61v7qutae3ieqk4bbgsnvns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Are You Sure?"
+        android:textColor="@color/button"
+        android:gravity="center"
+        android:fontFamily="@font/playfairdisplay_regular"
+        android:textSize="25sp"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp">
+        <Button
+            android:id="@+id/yes_btn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="YES"
+            android:fontFamily="@font/montserrat_medium"
+            android:textColor="@color/background"
+            app:cornerRadius="0dp"
+            android:backgroundTint="@color/button"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/no_btn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="No"
+            app:cornerRadius="0dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:textSize="16dp"
+            android:textColor="@color/button"
+            android:backgroundTint="@color/button_2"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+</LinearLayout>

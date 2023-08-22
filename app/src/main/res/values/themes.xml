@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LÁMORE" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryVariant">@color/background</item>
+        <item name="colorOnPrimary">@color/text_d_1</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/background</item>
+        <item name="colorSecondaryVariant">@color/background</item>
+        <item name="colorOnSecondary">@color/text_d_1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.LÁMORE.StatusBar1">
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryVariant">@color/background</item>
+        <item name="colorOnPrimary">@color/text_d_1</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/background</item>
+        <item name="colorSecondaryVariant">@color/background</item>
+        <item name="colorOnSecondary">@color/text_d_1</item>
+        <!-- Status bar color. -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">?attr/colorSecondaryVariant</item>
+    </style>
+    <style name="Theme.LÁMORE.StatusBar2">
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryVariant">@color/background</item>
+        <item name="colorOnPrimary">@color/text_d_2</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/background</item>
+        <item name="colorSecondaryVariant">@color/navbar_background</item>
+        <item name="colorOnSecondary">@color/text_d_2</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">?attr/colorSecondaryVariant</item>
+    </style>
+</resources>

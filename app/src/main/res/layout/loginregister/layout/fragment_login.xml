@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".loginregister.Login"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:gravity="center"
+            android:fontFamily="@font/playfairdisplay_regular"
+            android:textColor="@color/text_d_1"
+            android:textSize="30sp"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_d_2"
+            android:textColorHint="@color/text_d_2"
+            android:backgroundTint="@color/text_d_2"
+            android:lines="1"
+            android:maxLines="1"
+            android:layout_marginBottom="10dp"
+            android:textSize="17sp"
+            android:id="@+id/email"
+            android:hint=" Email"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_d_2"
+            android:textColorHint="@color/text_d_2"
+            android:backgroundTint="@color/text_d_2"
+            android:lines="1"
+            android:maxLines="1"
+            android:layout_marginBottom="10dp"
+            android:textSize="17sp"
+            android:id="@+id/password"
+            android:hint=" Password"
+            android:inputType="textPassword"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/button"
+            app:cornerRadius="0dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="LOGIN"
+            android:textColor="@color/background"
+            android:textSize="17sp"
+            android:id="@+id/login_btn"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/text_d_1"
+                android:text="No Account? "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:textColor="@color/button"
+                android:id="@+id/register_btn"
+                android:text="Register"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".items.HistoryItemPerMonth">
+    <TextView
+        android:id="@+id/purchase_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:fontFamily="@font/playfairdisplay_medium"
+        android:textColor="@color/text_d_2"
+        android:text="July 2023"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_history"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>
